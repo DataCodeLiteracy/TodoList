@@ -1,5 +1,8 @@
 # TodoList
 
+멘토링을 진행하면서 구현했던 프로젝트이기 때문에 외부 리퍼지토리에서 구현하면서 피드백을 받았다.
+https://github.com/Yuni-Q/TodoList/pulls
+
 ## 프로젝트 소개 및 목적
 
 - To Do List 프로그램을 작성하여 할 일 목록들을 관리한다.
