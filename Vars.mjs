@@ -1,9 +1,9 @@
-export const container = document.querySelector(".container");
-export const addItemInput = document.querySelector(".addItem-bar__input");
-export const addBtn = document.querySelector(".addItem-bar__btn");
-export const todoItemsList = document.querySelector(".todo-itemsList");
+export const container = document.querySelector('.container');
+export const addItemInput = document.querySelector('.addItem-bar__input');
+export const addBtn = document.querySelector('.addItem-bar__btn');
+export const todoItemsList = document.querySelector('.todo-itemsList');
 export const completedItemsList = document.querySelector(
-  ".completed-itemsList"
+  '.completed-itemsList'
 );
 
 /**
@@ -21,7 +21,7 @@ export class Contents {
     this.content = content;
   }
   createTodoItem() {
-    const li = document.createElement("li");
+    const li = document.createElement('li');
     li.dataset.id = this.id;
     li.dataset.isCompleted = this.isCompleted;
     li.innerHTML = `
